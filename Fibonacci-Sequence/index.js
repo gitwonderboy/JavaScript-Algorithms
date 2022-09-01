@@ -8,7 +8,11 @@ function findNumberFibonacciSequence(n) {
   }
   return fibonacciSequence;
 }
-
+// Big-O Notation for this function is O(n) - Linear - n+2 = 3+2
 console.log(findNumberFibonacciSequence(3));
+
+// Big-O Notation for this function is O(n) - Linear - n+5 = 5+2
 console.log(findNumberFibonacciSequence(5));
+
+// Big-O Notation for this function is O(n) - Linear - n+7 = 7+2
 console.log(findNumberFibonacciSequence(7));
